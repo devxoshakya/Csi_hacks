@@ -14,17 +14,17 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="bg-gray-100 min-h-screen">
+    <div className="min-h-screen bg-gray-100">
       <Navbar />
       <Header />
-      <FAQ />
-      <Sponsors />
+      <Roadmap />
       <Prizes />
       <Judges />
+      <Sponsors />
       <Mentors />
       <OrganizingTeam />
-      <Roadmap />
       <Dates />
+      <FAQ />
       <Footer />
     </div>
   );
